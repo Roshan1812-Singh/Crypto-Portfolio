@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .App {
   text-align: center;
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(#0b004e, #1d152f, #002834);
+
 }
 
 .App-logo {
@@ -32,6 +50,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
